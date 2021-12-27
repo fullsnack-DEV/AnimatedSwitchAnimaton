@@ -63,8 +63,7 @@ export default function SwitchCom({ size, onPress, isActive, transition }) {
           <MotiView
             transition={transition}
             animate={{
-              borderRadius: isActive ? Knobsize / 2 : Knobsize / 8,
-              width: isActive ? Knobsize : Knobsize / 1.5,
+              width: isActive ? 0 : Knobsize,
             }}
             style={{
               width: Knobsize,
