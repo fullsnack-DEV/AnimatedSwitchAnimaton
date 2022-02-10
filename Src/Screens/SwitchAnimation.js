@@ -1,4 +1,4 @@
-import { View, Text, StyleSheet } from "react-native";
+import { View, StyleSheet, StatusBar } from "react-native";
 import React, { useState } from "react";
 import SwitchCom from "../../Component/SwitchCom";
 import { Easing } from "react-native-reanimated";
